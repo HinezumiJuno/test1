@@ -1,0 +1,33 @@
+DEPENDENCIES
+  apt
+  apt-jenkins (~> 1.0.0)
+  capistrano
+    path: site-cookbooks/capistrano
+  hostsfile
+  phpenv
+    path: site-cookbooks/phpenv
+  ruby-ng
+
+GRAPH
+  apt (4.0.2)
+    compat_resource (>= 12.10)
+  apt-jenkins (1.0.0)
+    apt (>= 0.0.0)
+  build-essential (7.0.1)
+    compat_resource (>= 12.14)
+    mingw (>= 1.1)
+    seven_zip (>= 0.0.0)
+  capistrano (0.1.0)
+  compat_resource (12.14.7)
+  hostsfile (2.4.5)
+  mingw (1.2.4)
+    compat_resource (>= 0.0.0)
+    seven_zip (>= 0.0.0)
+  phpenv (0.1.0)
+    hostsfile (>= 0.0.0)
+  ruby-ng (0.3.0)
+    apt (>= 0.0.0)
+    build-essential (>= 0.0.0)
+  seven_zip (2.0.2)
+    windows (>= 1.2.2)
+  windows (2.0.2)

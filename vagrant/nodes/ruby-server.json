@@ -1,0 +1,8 @@
+{
+    "run_list": [
+        "ruby-ng::default"
+    ],
+    "ruby-ng": {
+        "ruby_version": "2.2"
+    }
+}
