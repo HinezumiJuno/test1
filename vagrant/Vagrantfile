@@ -89,7 +89,6 @@ Vagrant.configure("2") do |config|
         recipe[phpenv::develop]
         recipe[ruby-ng]
         recipe[capistrano]
-        recipe[apt-jenkins]
       ]
     end
   end
