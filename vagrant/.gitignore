@@ -1,3 +1,4 @@
 /cookbooks/
 /.vagrant/
 /Gemfile.lock
+/application
