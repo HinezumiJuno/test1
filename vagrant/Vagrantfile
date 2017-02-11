@@ -20,9 +20,9 @@ Vagrant.configure("2") do |config|
 
     develop.vm.synced_folder "application", "/var/www/application/current",
     id: "vagrant-root", :nfs => false,
-    :owner => "vagrant",
+    :owner => "www-data",
     :group => "www-data",
-    :mount_options => ["dmode=775,fmode=755"]
+    :mount_options => ["dmode=777,fmode=777"]
 
     develop.vm.provision :chef_solo do |chef|
       chef.channel = "stable"
